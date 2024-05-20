@@ -56,3 +56,4 @@ signed main()
 		cout << to_str(now)[q-g(now)-1] << "\n";
 	}
     return 0;
+}
