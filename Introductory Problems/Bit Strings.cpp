@@ -15,3 +15,4 @@ int main()
 		n /= 2;
 	}
 	cout << x;
+}

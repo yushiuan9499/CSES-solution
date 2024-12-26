@@ -18,7 +18,7 @@ int main()
 	}
 	if(a[0] == 0)
 	{
-		for(int j = 1 ; j <= m ; j++)times[j][0] = 1;
+		for(int j = 2 ; j <= m ; j++)times[j][0] = 1;
 	}
 	else times[a[0]][0] = 1;
 	for(int i = 1 ; i < n ; i++)
@@ -39,5 +39,4 @@ int main()
 	}
 	else cout << times[a[n-1]][n-1];
 	return 0;
-	
 }
